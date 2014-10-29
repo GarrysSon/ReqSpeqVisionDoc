@@ -1,0 +1,40 @@
+1 - Intro:
+
+	1.1 Purpose:
+		This document is used to define how the "INSERT NAME HERE" system will be developed
+		and operate.
+
+	1.2 Product Overview:
+		The "INSERT NAME HERE" system will track the general state and position of company
+		owned fleet vehicles.
+
+	1.3 References:
+		
+
+User Description:
+
+Product Overview:
+
+Feature Attributes:
+
+Features:
+
+Use Cases:
+
+Other:
+
+Glossary:
+
+
+What we need:
+
+	Servers.
+	Hardware to track.
+
+Questions:
+	
+	Do we need to make the hardware?
+	How frequent does the data update?
+	How many vehicles will we be tracking? (Max)
+	Is this used by supervisors only?
+	
