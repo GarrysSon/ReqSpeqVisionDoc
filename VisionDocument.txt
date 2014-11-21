@@ -8,17 +8,13 @@ Meridian's Vision Document For the Betterment Of Peace and Prosperity Of the Peo
 
 	1.1 Purpose:
 
-		This document is used to define how the "INSERT NAME HERE" system will be developed
-		and operate.
+		This document is used to define the development of the Sweet Fleet Tracking Suite and how
+		it will operate.
 
 	1.2 Product Overview:
 
-		The "INSERT NAME HERE" system will track the general state and position of company
+		The Sweet Fleet Tracking Suite will track the general state and position of company
 		owned fleet vehicles.
-
-	1.3 References:
-
-		Will list any applicable government regulations.		
 
 2 - User Description:
 	
@@ -30,7 +26,9 @@ Meridian's Vision Document For the Betterment Of Peace and Prosperity Of the Peo
 
 	2.2 User Profiles:
 
-		N/A
+		Although each user will have a unique username and password, the distinction between 
+		users is irrelevant.  Supervisors will be assumed to have limited knowlege of operating
+		computers.
 
 	2.3 User Environment:
 
@@ -111,27 +109,64 @@ Meridian's Vision Document For the Betterment Of Peace and Prosperity Of the Peo
 
 	If after 5 attempts, the users account is locked and they have to wait for a day before attempting another login.
 
-	Upon successful login, the user sees the main interface containing a scroll for selecting employees, a map with all currently active vehicles displayed at their current locations, buttons to 
+	Upon successful login, the user sees the main interface containing a scroll view for selecting employees, a map with all currently active vehicles displayed at their current locations, buttons to 
 		navigate to the following interfaces: 
-			- snapshot page to view on/off and arrival/departure notifications for all vehicles that were active during that day for the supervisor
-			- vehicle maintainance page to view/edit a selected vehicles maintainance schedule and information
+			- snapshot page to view on/off, arrival/departure, and maintenance notifications for all vehicles that were active during that day for the supervisor
+			- vehicle maintenance page to view/edit a selected vehicles maintenance schedule and information
 			- a vehicle status page based on the selected vehicle/vehicles.
+
+	The user selects one or more employees from the scroll.
+
+	The user clicks the snapshot page button.
+
+	On the vehicle mainenance page, the user sees the following for each active vehicle:
+		- The current state of the vehicle ( ie. on/off ).
+		- The arrival and departure notifications.
+		- A flag indicating maintenance is needed, if needed.
+
+	The user clicks the home button to return the main interface.
+
+	The user selects one or more employees from the scroll.
+
+	The user clicks the vehicle maintenance page button.
+
+	The user sees the the following on the vehicle maintenance page:
+		- The date of the most recent maintenance of the selected vehicle which includes:
+			- The most recent tire change.
+			- The most recent tire rotation.
+			- The most recent oil change.
+			- The most recent state government defined vehicle inspection if required.
+		- The make, model, year, color, trim package, mileage, license plate number, and VIN of the selected vehicle.
+		- An edit button for to the right of each of the above items for the vehicle maintenance page.
+
+	Clicking an edit button to the right of a field allows the user to modify the contents of the field.
+
+	The user clicks the home button to return the main interface.
 
 	The user selects one or more employees from the scroll.
 
 	The user clicks the vehicle status button.
 
 	The user sees the following on the vehicle status page:
-		- Current Speed
-		- Current Location
-		- Time of Departure from the company garage if the vehicle is in use that day
-		- Time of Arrival to the company garage if the vehicle was that day out
-		- Distance traveled for the day
-		- A list of oddities from the day
-		- Total time the vehicle was more than 5 miles per hour over the speed limit
-		- The ability to "ping" the vehicle to ensure hardware functionality
+		- Current Speed.
+		- A list of speeds exceeding the limit and the duration spent at such speeds.
+		- Current Location.
+		- Time of Departure from the company garage if the vehicle is in use that day.
+		- Time of Arrival to the company garage if the vehicle was that day out.
+		- Distance traveled for the day.
+		- A list of oddities from the day.
+		- Total time the vehicle was more than 5 miles per hour over the speed limit.
+		- The ability to "ping" the vehicle to ensure hardware functionality.
 
-	. . .
+	The user clicks the button to ping the selected employee's vehicle.
+
+	If the vehicle hardware is functioning correctly, the user will receive a notification stating that the vehicle hardware is functioning correctly.
+
+	If the vehicle hardware is not functioning correctly, the user will receive a notification stating that the vehicle hardware is not functioning correctly.
+
+	The user clicks the home button to return to the main interface.
+
+	The user clicks the logout button and is no longer able to access the Sweet Fleet Tracking Suite unless they login again.
 
 5 - Features
 
